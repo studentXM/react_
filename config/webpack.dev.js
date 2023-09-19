@@ -5,13 +5,7 @@ const dev = (arg) => {
     mode: "development",
     devtool: "inline-source-map",
     devServer: {
-      hot: true,
-      client: {
-        overlay: {
-          errors: true,
-          warnings: false,
-        }
-      }
+      historyApiFallback: true//该配置影响react-router的路由刷新
     }
   };
 }
