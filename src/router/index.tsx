@@ -9,7 +9,6 @@ const router: RouteObject[] = [
     { path: "/", element: <Discover /> },
     { path: "/mine", element: <Mine /> },
     { path: "/friend", element: <Friend /> },
-
 ]
 
 export default router
